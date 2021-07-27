@@ -1,0 +1,433 @@
+html {
+    scroll-behavior: smooth;
+}
+body{background-color:white;}
+@font-face {
+    font-family: 'Paytone';
+    src: url('/fonts/paytone-one.regular.ttf');
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/fonts/OpenSans-Regular.ttf');
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter-Regular.otf');
+}
+#loginid{
+    font-family: 'Open Sans';
+    font-weight:600;
+    color: #05034E;
+    padding: 10px;
+}
+#tryfre{
+    background-color: #5856CE;    
+    border-radius: 5px;
+}
+#tryfre small{
+    font-weight: 600;
+    color:#FFFFFF;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    line-height: 15px;
+    text-transform: uppercase;
+}
+#jumbotronid{
+    padding-top: 150px;
+}
+#jumbotronid .container h1{
+    font-family: 'Paytone';
+    color: #05034E;
+    padding-bottom: 20px;
+}
+#jumbop{
+    padding-bottom: 10px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: #202020;
+    text-align: center;
+}
+#jumbolink{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    background-color: #5856CE;
+    color:#FFFFFF;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 12px 32px;
+}
+#topcid{
+    background-color:rgba(242, 242,253,0.5);
+    /* backdrop-filter: blur(10px); */
+}
+#cid1{
+    padding-top: 50px;
+}
+#cid1 h2{
+/* H2 */
+font-family: 'Paytone';
+font-style: normal;
+font-weight: normal;
+font-size: 39px;
+line-height: 47px;
+color: #05034E;
+}
+#cid1 p{
+    margin-top: 35px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: #202020;
+}
+#rowid{
+    margin-bottom: 30px;
+}
+ul li{
+    list-style: none;
+}
+#rowid1{
+    padding-top: 40px;
+}
+#hid1,#hid2{
+    color: rgb(3, 3, 70);
+}
+#rowidp1,#rowidp2{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #202020;
+}
+#headid2{
+    font-family: 'Paytone';
+    font-weight: 400;
+    line-height: 68px;    
+    color: #05034E;
+}
+#midcid{
+    padding-bottom: 50px;
+}
+
+.card{
+    border: none;
+}
+.card-img-top{
+    background-size:contain ;
+}
+#cardbody1{
+    margin-top: 101px;
+    width:70%;
+    height: auto;
+}
+#cardp1{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #99D0FF;
+    border-radius: 28px;
+    margin-right: 22px;
+    color: #333333;
+    text-align: center;
+    padding: 5px;
+    width: 60%;
+}
+#cardbody1 h2{
+    font-family: 'Paytone';
+    font-size: 39px;
+    color: #05034E;
+    line-height: 47px;
+}
+#cardbody1 h4{
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-family: 'Paytone';
+    font-size: 25px;
+    color: #05034E;
+    line-height: 35px;
+}
+#cardbody2{
+    margin-top: 101px;
+    width: 70%;
+    height: auto;
+}
+#cardp3{
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 600;
+    background-color: #99FFCE;
+    border-radius: 28px;
+    margin-right: 22px;
+    color: #333333;
+    text-align: center;
+    padding: 6px;
+    width: 72%;
+}
+#cardbody2 h2,h4{ 
+    font-family: 'Paytone';
+    color: #05034E;
+}
+#cardbody2 h2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 39px;
+    line-height: 47px;
+}
+#cardbody2 h4{
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-size: 25px;   
+    line-height: 35px;
+}
+#cardbody3{
+    margin-top: 101px;
+    width: 70%;
+    height: auto;
+}
+#cardp5{
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 600;
+    background-color: #D299FF;
+    border-radius: 28px;
+    margin-right: 22px;
+    color: #333333;
+    text-align: center;
+    padding: 6px;
+    width: 71%;
+}
+#cardbody3 h2,h4{ 
+    font-family: 'Paytone';
+    color: #05034E;
+}
+#cardbody3 h2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 39px;
+    line-height: 47px;
+}
+#cardbody3 h4{
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-size: 25px;   
+    line-height: 35px;
+}
+#cardp2,#cardp4,#cardp6{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #202020;
+}
+#bottomid{
+    background-color: #F2F2FD;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+#bottomhead{
+    padding-bottom:20px;
+}
+#bottomhead .container h3{
+    font-family: 'Paytone';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 31px;
+    line-height: 40px;
+    color: #05034E;
+}
+.carousel{
+    width: 90%;
+    height: 30%;
+}
+.carousel-item{
+    height: auto;
+    /* background-color: #99D0FF; */
+}
+#carouselcard1,#carouselcard2,#carouselcard3{
+    width: 53em;
+    height: 27em;
+    border-radius: 10px;
+    box-shadow: 12px 12px 30px rgb(0, 0, 0,0.08);
+    padding: 20px;
+    margin: 20px;
+    background: #FFFFFF;
+    box-sizing: border-box;
+}
+#leftid,#rightid{
+    padding: 8px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    box-shadow: 2px 2px 15px rgb(0, 0, 0,0.1);
+}
+#carouselbody1 #resp1,#carouselbody2 #resp2,#carouselbody3 #resp3{
+    padding: 20px;
+}
+#carouselbody1 h5{
+    padding-top: 30px;
+    padding-bottom: 25px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 27px;
+    color: #202020;
+}
+#carouselbody2 h5,#carouselbody3 h5{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 27px;
+    color: #202020;
+}
+#carouselbody1 #resp1 img,#carouselbody2 #resp2 img,#carouselbody3 #resp3 img{
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 10px;
+}
+/* #endjumbo{
+    background-color: #E5E5E5;
+} */
+#endjumbo .container h3{
+    font-family: 'Paytone';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 31px;
+    line-height: 40px;
+    color: #05034E;
+}
+#endjumbo .container #pmid{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 27px;
+    padding-top: 30px;
+    color: #202020;
+}
+#endjumbo .container #pend{
+    padding-top: 20px;
+}
+#endjumbo .container #pend a{
+    background-color: #5856CE;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-radius: 4px;
+    padding: 12px 32px;
+}
+@media only screen and (max-width:50em){
+
+    #card1,#card2,#card3{
+        flex-wrap: wrap;
+        width: auto;
+    }
+    #cardbody1,#cardbody2,#cardbody3{
+        padding-top: 10px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    #cardp1,#cardp3,#cardp5{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .carousel{
+        width: fit-content;
+        height: fit-content;
+    }
+    #carouselcard1,#carouselcard2,#carouselcard3{
+        width: auto;
+        height: auto;
+        box-sizing: border-box;
+    }
+    #carouselbody1 #resp1,#carouselbody2 #resp2,#carouselbody3 #resp3{
+        padding: 10px;
+    }
+    #carouselbody1 h5,#carouselbody2 h5,#carouselbody3 h5{
+        width: fit-content;
+        padding: 1px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: normal;
+        line-height: 27px;
+        color: #202020;
+    }
+    #carouselbody1 #resp1,#carouselbody2 #resp2,#carouselbody3 #resp3{
+        width: auto;
+        box-sizing:content-box;
+        /* overflow: auto; */
+        display: inline;
+    }
+    #carouselbody1 #resp1 img,#carouselbody2 #resp2 img,#carouselbody3 #resp3 img{       
+        margin: 0;
+        padding: 9px;
+        width: 4.8em;
+        height: 36px;
+    }
+}
+@media (min-width:50em) and (max-width:58em) {
+    #r1 .container-fluid,#r2 .container-fluid, #r3 .container-fluid{
+        width: 90%;
+    }
+    #card1,#card2,#card3{
+        width: 100%; 
+    }
+    #cardbody1,#cardbody2,#cardbody3{
+        width: 100%;
+    }
+    #card1 img,#card2 img,#card3 img{
+        width: 100%;
+        background-size: contain;
+    }
+    #cardp1,#cardp3,#cardp5{
+        width: 60%;       
+        text-align: center;
+    }
+    .carousel{
+        width: fit-content;
+        height: fit-content;
+    }
+    #carouselcard1,#carouselcard2,#carouselcard3{
+        width: auto;
+        height: auto;
+        box-sizing: border-box;
+    }
+    #carouselbody1 #resp1,#carouselbody2 #resp2,#carouselbody3 #resp3{
+        width: auto;
+        box-sizing:content-box;       
+        display: inline;    
+        padding-bottom: 20px;  
+    }
+    #carouselbody1 #resp1 img,#carouselbody2 #resp2 img,#carouselbody3 #resp3 img{       
+        padding: 11px;
+        width: 5.6em;
+        height: 55px;
+    }
+    #carouselbody1 h5,#carouselbody2 h5,#carouselbody3 h5{
+        width: fit-content;
+        padding-top: 23px;
+        padding-bottom: 23px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: normal;
+        line-height: 27px;
+        color: #202020;
+    }
+}
